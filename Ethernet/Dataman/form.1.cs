@@ -88,13 +88,6 @@ namespace EthernetTest
         private void button3_Click(object sender, EventArgs e)  //전송
         {
 
-            //msg = textBox2.Text;
-            //byte[] buff = Encoding.ASCII.GetBytes(msg);
-
-            //// (2) NetworkStream을 얻어옴 
-            //stream = tc.GetStream();
-            //stream.Write(buff, 0, buff.Length);
-
             tck.MCWrite(Convert.ToInt32(textBox4.Text), Convert.ToInt32(textBox5.Text));
 
             richTextBox1.AppendText(Dtime.Now(Dtime.StringType.CurrentTime) + " : " + textBox5.Text + Environment.NewLine);
