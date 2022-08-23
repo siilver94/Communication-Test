@@ -3,3 +3,4 @@
 
 - TCP/IP
 - Melsec
+- RS-232
