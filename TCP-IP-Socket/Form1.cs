@@ -192,18 +192,7 @@ namespace tcpServer
 
             client.BeginSend(message2, 0, message2.Length, SocketFlags.None, SendData, client);
 
-            /*
-             * byte to string
-            byte[] message3 = Encoding.UTF8.GetBytes(recvData);
-            string binaryString = string.Empty;
-            foreach (byte b in message3)
-            {
-                // byte를 2진수 문자열로 변경
-                string s = Convert.ToString(b, 2);
-                binaryString += s.PadLeft(8, '0');
-            }
-            AppendText(this.richTextBox4, binaryString);
-            */
+
         }
 
 
