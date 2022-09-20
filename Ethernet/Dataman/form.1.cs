@@ -61,8 +61,7 @@ namespace EthernetTest
             // (1) IP 주소와 포트를 지정하고 TCP 연결 
             tc = new TcpClient(textBox3.Text, Convert.ToInt32(textBox1.Text));
             tck = new TCPClient_PLC1(textBox3.Text, Convert.ToInt32(textBox1.Text), 100, this);
-            // tck.TalkingComm += plc1_TalkingComm;
-            //TcpClient tc = new TcpClient("localhost", 7000);
+
         }
 
         private void label2_Click(object sender, EventArgs e)
