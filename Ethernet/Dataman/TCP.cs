@@ -973,53 +973,6 @@ namespace EthernetTest
             return str_;
         }
 
-
-        ////tttttttttttttttttttttttttttttttttttt
-        //private void CommMethod()
-        //{
-        //    PulseDetector Save1 = new PulseDetector();
-        //    PulseDetector Save2 = new PulseDetector();
-        //    PulseDetector Save3 = new PulseDetector();
-        //    PulseDetector LabelPrint = new PulseDetector();
-
-        //    PulseDetector BarcodeCheck = new PulseDetector();
-        //    PulseDetector BarcodeCheck2 = new PulseDetector();
-
-        //    PulseDetector Balance = new PulseDetector();
-        //    PulseDetector Balance2 = new PulseDetector();
-        //    PulseDetector Balance3 = new PulseDetector();
-
-
-        //    PulseDetector ManualPrint = new PulseDetector();
-
-        //    CountPlay flip = new CountPlay();
-
-        //    CountPlay quantity = new CountPlay();
-
-        //    while (CommFlag)
-        //    {
-        //        try
-        //        {
-
-        //            if (mainform.Viewdatachk.Checked)
-        //            {
-        //                int[] commdata = MCRead_By_Offsets(5000, 500);//5000번지 300워드
-
-        //                if (TalkingComm != null) TalkingComm("CommData", commdata, "", "", "", "", "", "", "", "", "", "", "");
-        //            }
-
-        //            byte[] buff = MCRead(5000, 500);//600개 바이트
-
-
-        //            //if ( mainform.AllReady )//Ready신호
-        //            //{
-
-        //            if (flip.OnePlay(1))
-        //                MCWrite(6000, 0);
-        //            else
-        //                MCWrite(6000, 1);
-        //            //}
-
         //            if (mainform.CurrentModelNum != buff[CalcByte(5000)])
         //                if (TalkingComm != null) TalkingComm("ModelChange", buff[CalcByte(5000)], "", "", "", "", "", "", "", "", "", "", "");
 
