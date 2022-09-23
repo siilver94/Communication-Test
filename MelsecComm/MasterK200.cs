@@ -191,14 +191,13 @@ namespace DHVisionMelsecTest
 
         }
 
-        //public void MasterK_Write_W( string address, string value )     //  Word로 쓰기때문에 번지 그대로 써도됨 단, 16진수형식
         public void MasterK_Write_W(string address, string value)     //  Word로 쓰기때문에 번지 그대로 써도됨 단, 16진수형식
         {
             lock (lockObjj)
             {
                 Delay(10);
 
-                //Send("4C5349532D47544F4641 0000 0033 0000 1600 0000 5800 0200 0000 0100 0800 25 44 57" + address + "0200" + value);   //본래
+
                 Send("4C5349532D5847540000 0000 B033 0000 1500 0154 5800 0200 0000 0100 0700 25 44 57" + address + "0200" + value);   //수정 후
                                                                                                                                       //4C5349532D5847540000 0000 B033 0000 1500 0154 5800 0200 0000 0100 0700 25 44 57    32303030   0200     0100
 
