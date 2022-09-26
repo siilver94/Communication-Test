@@ -51,7 +51,7 @@ namespace tcpServer
                     break;
                 }
             }
-            // 주소가 없다면..
+          
             if (thisAddress == null)
                 thisAddress = IPAddress.Loopback;// 로컬호스트 주소를 사용한다.
             richTextBox1.Text = thisAddress.ToString();
