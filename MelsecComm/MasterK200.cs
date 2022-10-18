@@ -348,21 +348,6 @@ namespace DHVisionMelsecTest
                         if (TalkingComm != null) TalkingComm("Data", result, length);
                     }
 
-                    //  int ready = Int32.Parse(result[72]);   //  72 20020번지
-                    //  
-                    //  if (ready == 1)
-                    //  {
-                    //      // MasterK_Write_W("3230303230", "0000");
-                    //  
-                    //      //System.Windows.Forms.MessageBox.Show(ready.ToString());
-                    //  }
-                    //  else if (ready == 0)
-                    //  {
-                    //      // MasterK_Write_W("3230303230", "0100");
-                    //  
-                    //      //System.Windows.Forms.MessageBox.Show(ready.ToString());
-                    //  }
-
                     int resultTriger1 = Int32.Parse(result[36]); //  36 20002번지
                     //int modelNum1 = Int32.Parse(result[32]); // 32 20000번지
 
