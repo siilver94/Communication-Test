@@ -971,24 +971,7 @@ namespace DHVisionMelsecTest
         //tttttttttttttttttttttttttttttttttttt
         private void CommMethod()
         {
-            //PulseDetector Save1 = new PulseDetector();
-            //PulseDetector Save2 = new PulseDetector();
-            //PulseDetector Save3 = new PulseDetector();
-            //PulseDetector LabelPrint = new PulseDetector();
-
-            //PulseDetector BarcodeCheck = new PulseDetector();
-            //PulseDetector BarcodeCheck2 = new PulseDetector();
-
-            //PulseDetector Balance = new PulseDetector();
-            //PulseDetector Balance2 = new PulseDetector();
-            //PulseDetector Balance3 = new PulseDetector();
-
-
-            //PulseDetector ManualPrint = new PulseDetector();
-
-            //CountPlay flip = new CountPlay();
-
-            //CountPlay quantity = new CountPlay();
+    
 
             //byte[] buff = MCRead(2000, 200);//200개 바이트
             byte[] buff = new byte[4096]; ;//200개 바이트
