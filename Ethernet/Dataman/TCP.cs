@@ -210,35 +210,6 @@ namespace EthernetTest
         //    int length = 0;
 
 
-        //    while (CommFlag)
-        //    {
-        //        try
-        //        {
-
-        //            SendString(
-        //                mainform.ModelNamelbl.Text + "~" + mainform.ModelNamelbl.Text + "~" + mainform.ModelNamelbl1.Text + "~" + mainform.ModelNamelbl2.Text + "~" +
-        //                mainform.QuantityData[0] + "~" + mainform.QuantityData[1] + "~" + mainform.QuantityData[2] + "~" + mainform.QuantityData[3] + "~" +
-        //                mainform.QuantityData[4] + "~" + mainform.QuantityData[5] + "~" + mainform.QuantityData[6] + "~" + mainform.QuantityData[7] + "~" +
-        //                mainform.dgvDE0.Rows[1].Cells[1].Value.ToString() + "~" + mainform.dgvDE0.Rows[1].Cells[2].Value.ToString() + "~" + mainform.dgvDE0.Rows[1].Cells[3].Value.ToString() + "~" + mainform.dgvDE0.Rows[1].Cells[4].Value.ToString()
-        //                + "@0"
-        //                );
-
-        //            length = _stream.Read(buff, 0, buff.Length);
-
-        //        }
-        //        catch (System.IO.IOException)
-        //        {
-        //            Pause();
-        //        }
-        //        catch (Exception exc)
-        //        {
-
-        //        }
-
-        //        Thread.Sleep(2000);//2초마다 한번씩
-        //    }
-        //}
-
         //스레드함수
         public void CommStart()
         {
