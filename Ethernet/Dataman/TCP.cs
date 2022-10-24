@@ -944,48 +944,6 @@ namespace EthernetTest
             return str_;
         }
 
-        //            if (mainform.CurrentModelNum != buff[CalcByte(5000)])
-        //                if (TalkingComm != null) TalkingComm("ModelChange", buff[CalcByte(5000)], "", "", "", "", "", "", "", "", "", "", "");
-
-        //            if (quantity.OnePlay(10))
-        //            {
-        //                int offset1 = 5070;
-        //                string data1 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(offset1)], buff[CalcByte(offset1) + 1], buff[CalcByte(offset1) + 2], buff[CalcByte(offset1) + 3]).ToString();
-        //                data1 = PLCValue(data1, 2);
-        //                mainform.QuantityData[0] = data1;
-
-        //                int offset2 = 5072;
-        //                string data2 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(offset2)], buff[CalcByte(offset2) + 1], buff[CalcByte(offset2) + 2], buff[CalcByte(offset2) + 3]).ToString();
-        //                data2 = PLCValue(data2, 2);
-        //                mainform.QuantityData[1] = data2;
-
-        //                int offset3 = 5270;
-        //                string data3 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(offset3)], buff[CalcByte(offset3) + 1], buff[CalcByte(offset3) + 2], buff[CalcByte(offset3) + 3]).ToString();
-        //                data3 = PLCValue(data3, 2);
-        //                mainform.QuantityData[2] = data3;
-
-        //                int offset4 = 5272;
-        //                string data4 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(offset4)], buff[CalcByte(offset4) + 1], buff[CalcByte(offset4) + 2], buff[CalcByte(offset4) + 3]).ToString();
-        //                data4 = PLCValue(data4, 2);
-        //                mainform.QuantityData[3] = data4;
-        //            }
-
-        //            //#C150 조립 완성품 배출부 바코드 판정 결과 요구
-        //            if (BarcodeCheck.Detect(buff[CalcByte(5100)], 1))
-        //            {
-        //                string bcr = DataChange_K.ByteToString_Clean_0x00(buff, CalcByte(5103), 18).Trim();
-
-        //                if (TalkingComm != null) TalkingComm("BarcodeCheck", "", bcr, "", "", "", "", "", "", "", "", "", "");
-        //            }
-
-        //            //#D20  조립 완성품 배출 로더 바코드 판정 결과 요구
-        //            if (BarcodeCheck2.Detect(buff[CalcByte(5120)], 1))
-        //            {
-        //                string bcr = DataChange_K.ByteToString_Clean_0x00(buff, CalcByte(5123), 18).Trim();
-
-        //                if (TalkingComm != null) TalkingComm("BarcodeCheck2", "", bcr, "", "", "", "", "", "", "", "", "", "");
-        //            }
-
         //            //#D31  밸런스 MC-1 DATA 읽기 요구
         //            if (Balance.Detect(buff[CalcByte(5140)], 1))
         //            {
