@@ -944,34 +944,6 @@ namespace EthernetTest
             return str_;
         }
 
-        //            //#D31  밸런스 MC-1 DATA 읽기 요구
-        //            if (Balance.Detect(buff[CalcByte(5140)], 1))
-        //            {
-        //                string bcr = DataChange_K.ByteToString_Clean_0x00(buff, CalcByte(5144), 18).Trim();
-
-        //                string data1 = ByteToDecision(buff[CalcByte(5153)]);
-        //                string data2 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5154)], buff[CalcByte(5154) + 1], buff[CalcByte(5154) + 2], buff[CalcByte(5154) + 3]).ToString();
-        //                string data3 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5156)], buff[CalcByte(5156) + 1], buff[CalcByte(5156) + 2], buff[CalcByte(5156) + 3]).ToString();
-        //                string data4 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5158)], buff[CalcByte(5158) + 1], buff[CalcByte(5158) + 2], buff[CalcByte(5158) + 3]).ToString();
-        //                string data5 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5160)], buff[CalcByte(5160) + 1], buff[CalcByte(5160) + 2], buff[CalcByte(5160) + 3]).ToString();
-
-        //                data2 = PLCValue(data2, 2);
-        //                data3 = PLCValue(data3, 2);
-        //                data4 = PLCValue(data4, 2);
-        //                data5 = PLCValue(data5, 2);
-
-        //                data2 = DecimalPoint(data2, 4);
-        //                data3 = DecimalPoint(data3, 4);
-        //                data4 = DecimalPoint(data4, 4);
-        //                data5 = DecimalPoint(data5, 4);
-
-        //                data2 = RoundUp(data2, 2).ToString();
-        //                data3 = RoundUp(data3, 2).ToString();
-        //                data4 = RoundUp(data4, 2).ToString();
-        //                data5 = RoundUp(data5, 2).ToString();
-
-        //                if (TalkingComm != null) TalkingComm("Balance", "", bcr, data1, data2, data3, data4, data5, "", "", "", "", "");
-        //            }
 
         //            //#D32  밸런스 M2-2 DATA 읽기 요구
         //            if (Balance2.Detect(buff[CalcByte(5180)], 1))
