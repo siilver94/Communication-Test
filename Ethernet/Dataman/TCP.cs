@@ -976,36 +976,7 @@ namespace EthernetTest
 
         //            //#D33  밸런스 MC-3 DATA 읽기 요구 1차
 
-        //            if (Balance3.Detect(buff[CalcByte(5220)], 1))
-        //            {
-        //                string bcr = DataChange_K.ByteToString_Clean_0x00(buff, CalcByte(5224), 18).Trim();
-
-        //                string data1 = ByteToDecision(buff[CalcByte(5233)]);
-        //                string data2 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5234)], buff[CalcByte(5234) + 1], buff[CalcByte(5234) + 2], buff[CalcByte(5234) + 3]).ToString();
-        //                string data3 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5236)], buff[CalcByte(5236) + 1], buff[CalcByte(5236) + 2], buff[CalcByte(5236) + 3]).ToString();
-        //                string data4 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5238)], buff[CalcByte(5238) + 1], buff[CalcByte(5238) + 2], buff[CalcByte(5238) + 3]).ToString();
-        //                string data5 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5240)], buff[CalcByte(5240) + 1], buff[CalcByte(5240) + 2], buff[CalcByte(5240) + 3]).ToString();
-
-        //                data2 = PLCValue(data2, 2);
-        //                data3 = PLCValue(data3, 2);
-        //                data4 = PLCValue(data4, 2);
-        //                data5 = PLCValue(data5, 2);
-
-        //                data2 = DecimalPoint(data2, 4);
-        //                data3 = DecimalPoint(data3, 4);
-        //                data4 = DecimalPoint(data4, 4);
-        //                data5 = DecimalPoint(data5, 4);
-
-        //                data2 = RoundUp(data2, 2).ToString();
-        //                data3 = RoundUp(data3, 2).ToString();
-        //                data4 = RoundUp(data4, 2).ToString();
-        //                data5 = RoundUp(data5, 2).ToString();
-
-        //                if (TalkingComm != null) TalkingComm("Balance3", "", bcr, data1, data2, data3, data4, data5, "", "", "", "", "");
-        //            }
-
-
-
+        //            
         //        }
         //        catch (Exception)
         //        {
