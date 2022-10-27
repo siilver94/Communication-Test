@@ -945,48 +945,6 @@ namespace EthernetTest
         }
 
 
-        //            //#D32  밸런스 M2-2 DATA 읽기 요구
-        //            if (Balance2.Detect(buff[CalcByte(5180)], 1))
-        //            {
-        //                string bcr = DataChange_K.ByteToString_Clean_0x00(buff, CalcByte(5184), 18).Trim();
-
-        //                string data1 = ByteToDecision(buff[CalcByte(5193)]);
-        //                string data2 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5194)], buff[CalcByte(5194) + 1], buff[CalcByte(5194) + 2], buff[CalcByte(5194) + 3]).ToString();
-        //                string data3 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5196)], buff[CalcByte(5196) + 1], buff[CalcByte(5196) + 2], buff[CalcByte(5196) + 3]).ToString();
-        //                string data4 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5198)], buff[CalcByte(5198) + 1], buff[CalcByte(5198) + 2], buff[CalcByte(5198) + 3]).ToString();
-        //                string data5 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(5200)], buff[CalcByte(5200) + 1], buff[CalcByte(5200) + 2], buff[CalcByte(5200) + 3]).ToString();
-
-        //                data2 = PLCValue(data2, 2);
-        //                data3 = PLCValue(data3, 2);
-        //                data4 = PLCValue(data4, 2);
-        //                data5 = PLCValue(data5, 2);
-
-        //                data2 = DecimalPoint(data2, 4);
-        //                data3 = DecimalPoint(data3, 4);
-        //                data4 = DecimalPoint(data4, 4);
-        //                data5 = DecimalPoint(data5, 4);
-
-        //                data2 = RoundUp(data2, 2).ToString();
-        //                data3 = RoundUp(data3, 2).ToString();
-        //                data4 = RoundUp(data4, 2).ToString();
-        //                data5 = RoundUp(data5, 2).ToString();
-
-        //                if (TalkingComm != null) TalkingComm("Balance2", "", bcr, data1, data2, data3, data4, data5, "", "", "", "", "");
-        //            }
-
-        //            //#D33  밸런스 MC-3 DATA 읽기 요구 1차
-
-        //            
-        //        }
-        //        catch (Exception)
-        //        {
-
-        //        }
-
-        //        Thread.Sleep(200);
-
-
-        //    }
         //}
 
         //스레드함수
