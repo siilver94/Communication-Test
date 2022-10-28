@@ -1465,19 +1465,6 @@ namespace EthernetTest
                         if (TalkingComm != null) TalkingComm("BarcodeCheck", "", bcr, "", "", "", "", "", "", "");
                     }
 
-                    //if (quantity.OnePlay(10))
-                    //{
-                    //    int offset1 = 7356;
-                    //    string data1 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(offset1)], buff[CalcByte(offset1) + 1], buff[CalcByte(offset1) + 2], buff[CalcByte(offset1) + 3]).ToString();
-                    //    data1 = PLCValue(data1, 2);
-                    //    mainform.QuantityData[4] = data1;
-
-                    //    int offset2 = 7358;
-                    //    string data2 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(offset2)], buff[CalcByte(offset2) + 1], buff[CalcByte(offset2) + 2], buff[CalcByte(offset2) + 3]).ToString();
-                    //    data2 = PLCValue(data2, 2);
-                    //    mainform.QuantityData[5] = data2;
-
-                    //}
 
 
                     //#F21 특성 검사 DATA 읽기 요구
