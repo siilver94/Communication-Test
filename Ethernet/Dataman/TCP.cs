@@ -1445,10 +1445,6 @@ namespace EthernetTest
                         MCWrite(8000, 0);
                     else
                         MCWrite(8000, 1);
-                    //}
-
-                    //if (mainform.CurrentModelNum1 != buff[CalcByte(7000)])
-                    //    if (TalkingComm != null) TalkingComm("ModelChange", buff[CalcByte(7000)], "", "", "", "", "", "", "", "");
 
 
                     //#E30 로더 바코드 DATA 요구                  
