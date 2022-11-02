@@ -2188,8 +2188,6 @@ namespace EthernetTest
                         string data3 = Ken2.Communication.MCProtocolCmd_K.View_MCData_2Word(buff[CalcByte(offset3)], buff[CalcByte(offset3) + 1], buff[CalcByte(offset3) + 2], buff[CalcByte(offset3) + 3]).ToString();
                         data3 = PLCValue(data3, 2);
 
-                        //mainform.QuantityData[6] = data1;
-                        //mainform.QuantityData[7] = (int.Parse(data2) + int.Parse(data3)).ToString();
                     }
 
                     //볼트저장
