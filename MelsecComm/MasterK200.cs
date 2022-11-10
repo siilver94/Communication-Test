@@ -285,9 +285,6 @@ namespace DHVisionMelsecTest
         #region -----# Comm #-----
 
 
-        //int flag1, flag2, flag3, flag4, flag5, flag6, flag7, flag8;
-        //int flag11, flag12, flag13, flag14, flag15, flag16, flag17, flag18;
-        //int flag19, flag20, flag21;
 
         private Thread Comm;//스레드
         bool CommFlag = false;//Bool Flag
