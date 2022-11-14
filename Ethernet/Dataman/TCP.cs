@@ -204,11 +204,6 @@ namespace EthernetTest
         private Thread Comm;//스레드
         bool CommFlag = false;//Bool Flag
 
-        //private void CommMethod()
-        //{
-        //    byte[] buff = new byte[1024];
-        //    int length = 0;
-
 
         //스레드함수
         public void CommStart()
