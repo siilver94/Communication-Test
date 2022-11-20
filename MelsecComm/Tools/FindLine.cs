@@ -27,9 +27,7 @@ namespace DHVisionMelsecTest.Tools
 
 
             cogFindLineEditV21.Subject = LineTooll;
-           // CogFindLineEditV21.Subject = LineTooll;
-            //changelang( lang );
-            //this.lang = lang;
+          
         }
         private void FindLine_FormClosing(object sender, FormClosingEventArgs e)
         {
