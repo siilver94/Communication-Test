@@ -2096,7 +2096,7 @@ namespace EthernetTest
 
                         }
 
-                        //TalkingComm( "ServerConnected" , Connected );
+                       
                     }
 
 
