@@ -324,11 +324,6 @@ namespace DHVisionMelsecTest
                     length = _stream.Read(buff, 0, buff.Length);
 
 
-                    //if ( length == 0 )
-                    //{
-                    //    Pause( );
-                    //    break;
-                    //}
 
                     string input = BitConverter.ToString(buff, 0, length);
                     string[] result = input.Split(new string[] { "-" }, StringSplitOptions.None);
