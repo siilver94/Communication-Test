@@ -379,7 +379,7 @@ namespace DHVisionMelsecTest
                     }
 
 
-                    //Thread.Sleep(0);
+                    
                 }
                 catch (Exception)
                 {
