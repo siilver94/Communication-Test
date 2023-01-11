@@ -361,11 +361,7 @@ namespace DHVisionMelsecTest
 
                         try
                         {
-                         //if ( camera.StreamGrabber.IsGrabbing )
-                         //   {
-                         //       camera.StreamGrabber.Stop( );
-                         //   }
-                            // Starts the grabbing of one image.
+       
                             camera.Parameters[PLCamera.AcquisitionMode].SetValue(PLCamera.AcquisitionMode.SingleFrame);
                             camera.StreamGrabber.Start(1, GrabStrategy.OneByOne, GrabLoop.ProvidedByStreamGrabber);
                         }
