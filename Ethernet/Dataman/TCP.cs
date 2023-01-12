@@ -2151,12 +2151,6 @@ namespace EthernetTest
             {
                 try
                 {
-                    //if (mainform.Viewdatachk.Checked)
-                    //{
-                    //    int[] commdata = MCRead_By_Offsets(5000, 100);//7000번지 500워드
-
-                    //    if (TalkingComm != null) TalkingComm("CommData", commdata, "", "", "", "", "", "", "", "");
-                    //}
 
                     byte[] buff = MCRead(5000, 100);//1000개 바이트
 
