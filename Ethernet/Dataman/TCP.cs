@@ -946,7 +946,7 @@ namespace EthernetTest
         {
             //스레드스타트
             CommFlag = true;
-            //Comm = new Thread(CommMethod);
+           
             Comm.Start();
             //스레드스타트
         }
