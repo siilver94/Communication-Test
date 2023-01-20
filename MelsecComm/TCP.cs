@@ -1003,7 +1003,7 @@ namespace DHVisionMelsecTest
 
                 }
 
-                //Thread.Sleep(200);
+              
 
             }
         }
