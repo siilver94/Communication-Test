@@ -837,7 +837,7 @@ namespace DHVisionMelsecTest
 
                         }
 
-                        //TalkingComm( "ServerConnected" , Connected );
+                   
                     }
 
                 }
