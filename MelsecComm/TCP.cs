@@ -973,7 +973,7 @@ namespace DHVisionMelsecTest
         {
     
 
-            //byte[] buff = MCRead(2000, 200);//200개 바이트
+           
             byte[] buff = new byte[4096]; ;//200개 바이트
             int length = 0;
 
