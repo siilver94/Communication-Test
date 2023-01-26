@@ -353,8 +353,7 @@ namespace DHVisionMelsecTest
                     // int val10 = Convert.ToInt32(address[i], 16);   //  C0 10진수              
                     // dgvC1.Rows[i].Cells[2].Value = val10;
                     int camPoint2 = Convert.ToInt32(result[40], 16);
-                    //int modelNum2 = Int32.Parse(result[42]); // 32 20005번지
-                    //int camPoint2 = Int32.Parse(result[40]); // 34 20004번지
+                  
 
                     if (Trigger2.Detect(resultTriger2, 1, 0))   //Cam2 트리거 신호
                     {
