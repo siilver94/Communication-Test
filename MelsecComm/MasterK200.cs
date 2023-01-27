@@ -348,8 +348,8 @@ namespace DHVisionMelsecTest
 
                     int resultTriger2 = Int32.Parse(result[42]); //  36 20005번지
 
-                    // dgvC1.Rows[i].Cells[1].Value = address[i]; //  C0 16진수
-                    //
+        
+                   
                     // int val10 = Convert.ToInt32(address[i], 16);   //  C0 10진수              
                     // dgvC1.Rows[i].Cells[2].Value = val10;
                     int camPoint2 = Convert.ToInt32(result[40], 16);
