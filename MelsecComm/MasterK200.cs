@@ -335,7 +335,7 @@ namespace DHVisionMelsecTest
                     }
 
                     int resultTriger1 = Int32.Parse(result[36]); //  36 20002번지
-                    //int modelNum1 = Int32.Parse(result[32]); // 32 20000번지
+                    
 
                     int camPoint1 = Convert.ToInt32(result[34], 16);
                     // int camPoint1 = Int32.Parse(result[34]); // 34 20001번지   
