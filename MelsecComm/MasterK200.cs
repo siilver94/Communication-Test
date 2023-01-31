@@ -308,8 +308,7 @@ namespace DHVisionMelsecTest
             while (CommFlag)
             {
                 Delay(400);
-                //if ( CommFlag == false )
-                //    break;
+       
                 try
                 {
    
