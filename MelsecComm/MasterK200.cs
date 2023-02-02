@@ -251,7 +251,7 @@ namespace DHVisionMelsecTest
                 }
                 catch (Exception)
                 {
-                    //Console.WriteLine("PLC연결 실패");
+                   
                 }
             }
 
