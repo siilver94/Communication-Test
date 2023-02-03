@@ -337,7 +337,7 @@ namespace DHVisionMelsecTest
                     
 
                     int camPoint1 = Convert.ToInt32(result[34], 16);
-                    // int camPoint1 = Int32.Parse(result[34]); // 34 20001번지   
+                
 
                     if (Trigger1.Detect(resultTriger1, 1, 0))  //Cam1 트리거 신호
                     {
