@@ -983,7 +983,7 @@ namespace DHVisionMelsecTest
                 try
                 {
                     int[] commdata = MCRead_By_Offsets(2000, 500);//2000번지 300워드
-                    //string input = BitConverter.ToString(buff, 0, length);
+                   
                     length = commdata.Length;
                     string[] result = new string[length];
 
