@@ -19,18 +19,7 @@ namespace DHVisionMelsecTest
         public sealed class PylonBasler
         {
             //트리거모드 ON하고 컨티뉴어스 스타트하면 그때부터 접점신호받을때마다 촬영함.
-
-
-
-            // - 5버전 -
-            //C:\Program Files\Basler\pylon 5\Development\Assemblies\Basler.Pylon\x64\Basler.Pylon.dll
-
-
-
-            //C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\
-
-            
-
+       
             public enum CurrentStatus
             {
                 OneShot, IOShot, ContinuousShot, TestShot1, TestShot2, LiveShot, Stop
