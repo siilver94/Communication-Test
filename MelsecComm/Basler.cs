@@ -125,7 +125,7 @@ namespace DHVisionMelsecTest
                         }
                         catch (Exception)
                         {
-                            //ShowException( exception );
+                           
                         }
                     }
                     catch (Exception)
