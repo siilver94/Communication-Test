@@ -433,8 +433,7 @@ namespace DHVisionMelsecTest
                     try
                     {
                         StopLiveThread(0);
-                        //camera.StreamGrabber.Stop( );
-                        //camera.Parameters[ PLCamera.TriggerMode ].SetValue( PLCamera.TriggerMode.Off );
+             
                     }
                     catch (Exception)
                     {
